@@ -1,8 +1,8 @@
 class LejosEv3 < Formula
-  url "https://downloads.sourceforge.net/lejos/lejos-EV3/0.9.0-beta/leJOS_EV3_0.9.0-beta.tar.gz"
-  version "0.9.0-beta"
+  url "https://downloads.sourceforge.net/ev3.lejos.p/0.9.1-beta/leJOS_EV3_0.9.1-beta.tar.gz"
+  version "0.9.1-beta"
   homepage "http://www.lejos.org/"
-  sha256 "d916952a53f18fcd569e651cb77a3fb1af7c0ac85f8116d4981c0f26d69d5f96"
+  sha256 "37df3516ec99d0d219bdb7f5910a03c8c9727255c1e5adb34358c65e82fa658b"
 
   def install
     doc.install Dir["docs/*"]
